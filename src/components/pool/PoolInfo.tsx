@@ -2,7 +2,7 @@ import React from 'react';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@material-ui/core';
 import type PoolInfoType from '../../types/PoolInfo';
-import { CardKeyValue, Flex, Link } from '@chia/core';
+import { CardKeyValue, Flex, Link } from '@tad/core';
 
 type Props = {
   poolInfo: PoolInfoType;
@@ -41,7 +41,7 @@ export default function PoolInfo(props: Props) {
 
   return (
     <Flex flexDirection="column" gap={2}>
-      {/* 
+      {/*
       <Box>
         <StyledLogo src={poolInfo.logo_url} alt={t`Pool logo`} />
       </Box>

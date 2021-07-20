@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: cs_CZ\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: tad-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-07-13 06:31\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: tad-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: cs\n"
-"X-Crowdin-File: /[Chia-Network.chia-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Tad-Network.tad-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -23,8 +23,8 @@ msgid "(Optional)"
 msgstr "(Volitelné)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*Chcete se o Chia blocích dozvědět více? Podívej se na <0>Chia Explorer</0> vytvořený open source vývojářem."
+msgid "*Want to explore Tad’s blocks further? Check out <0>Tad Explorer</0> built by an open source developer."
+msgstr "*Chcete se o Tad blocích dozvědět více? Podívej se na <0>Tad Explorer</0> vytvořený open source vývojářem."
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -44,8 +44,8 @@ msgstr "Tzv. harvester (sklízeč) je služba provozovaná na počítači, kde j
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Blockchain"
-msgstr "O Chia Blockchainu"
+msgid "About Tad Blockchain"
+msgstr "O Tad Blockchainu"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -216,8 +216,8 @@ msgid "Block VDF Iterations"
 msgstr "VDF iterace bloku"
 
 #: src/components/block/Block.jsx:336
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Blok v Chia blockchainu ve výšce {0}"
+msgid "Block at height {0} in the Tad blockchain"
+msgstr "Blok v Tad blockchainu ve výšce {0}"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -305,20 +305,8 @@ msgid "Change Pool"
 msgstr "Změnit sdružení"
 
 #: src/electron/main.tsx:401
-msgid "Chat on KeyBase"
-msgstr "Chat na KeyBase"
-
-#: src/electron/main.tsx:419
-msgid "Chia"
-msgstr "Chia"
-
-#: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
-msgstr "Chia Blockchain Wiki"
-
-#: src/components/wallet/standard/WalletStandard.tsx:647
-msgid "Chia Wallet"
-msgstr "Chia peněženka"
+msgid "Chat on Discord"
+msgstr "Chat na Discord"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -690,8 +678,8 @@ msgid "Edit"
 msgstr "Upravit"
 
 #: src/components/wallet/WalletImport.tsx:147
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Zadejte 24 slov, které jste si poznamenali při zakládání vaší Chia peněženky."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Tad wallet."
+msgstr "Zadejte 24 slov, které jste si poznamenali při zakládání vaší Tad peněženky."
 
 #: src/components/farm/FarmerStatus.tsx:21
 #: src/components/farm/FarmerStatus.tsx:22
@@ -704,8 +692,8 @@ msgid "Error"
 msgstr "Chyba"
 
 #: src/components/wallet/standard/WalletStandard.tsx:456
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Chyba: Chia nelze odeslat na barevnou adresu. Zadejte prosím běžnou Chia adresu."
+msgid "Error: Cannot send tad to coloured address. Please enter a tad address."
+msgstr "Chyba: Tad nelze odeslat na barevnou adresu. Zadejte prosím běžnou Tad adresu."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -1034,7 +1022,7 @@ msgstr "Připojte se k poolu a získejte konzistentní farmářskou odměnu XCH.
 msgid "K-Size"
 msgstr "K - velikost"
 
-#: src/components/dashboard/DashboardSideBar.tsx:66
+#: src/components/dashboard/DashboardSideBar.tsx:67
 msgid "Keys"
 msgstr "Klíče"
 
@@ -1484,8 +1472,8 @@ msgid "Plots Passed Filter"
 msgstr "Pole vyhovující filtru"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "Pole jsou soubory, které můžete vytvořit na volném místě svého disku a pomocí kterých můžete farmařit Chia. <0>Zjistit více</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Tad. <0>Learn more</0>"
+msgstr "Pole jsou soubory, které můžete vytvořit na volném místě svého disku a pomocí kterých můžete farmařit Tad. <0>Zjistit více</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 msgid "Plotting"
@@ -1518,7 +1506,6 @@ msgstr "Body nalezené za posledních 24 hodin"
 msgid "Points Successful in Last 24 Hours"
 msgstr "Body úspěšné v posledních 24 hodinách"
 
-#: src/components/dashboard/DashboardSideBar.tsx:60
 #: src/components/pool/Pool.tsx:25
 msgid "Pool"
 msgstr "Pool"
@@ -1922,8 +1909,8 @@ msgstr "Délka intervalu výdajů (počet bloků)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Limit výdajů (chia na interval): {0}"
+msgid "Spending Limit (tad per interval): {0}"
+msgstr "Limit výdajů (tad na interval): {0}"
 
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
@@ -1971,8 +1958,8 @@ msgstr "Stav:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Tad blockchain"
+#~ msgstr "Sub Block at height {0} in the Tad blockchain"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
 msgid "Submit"
@@ -2017,6 +2004,18 @@ msgstr "Synchronizuji <0/>/<1/>"
 #: src/components/farm/card/FarmCardUserFees.tsx:15
 #~ msgid "TXCH User Transaction Fees"
 #~ msgstr ""
+
+#: src/electron/main.tsx:419
+msgid "Tad"
+msgstr "Tad"
+
+#: src/electron/main.tsx:358
+msgid "Tad Blockchain Wiki"
+msgstr "Tad Blockchain Wiki"
+
+#: src/components/wallet/standard/WalletStandard.tsx:647
+msgid "Tad Wallet"
+msgstr "Tad peněženka"
 
 #: src/components/pool/PoolInfo.tsx:37
 msgid "Target Puzzle Hash"
@@ -2115,8 +2114,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Tato funkce je dostupná pouze v grafickém rozhraní."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Chia zůstatek využitelný pro transakce. Neobsahuje nezpracované odměny za farmaření, nezpracované příchozí transakce a ani převody, které ještě nebyly zaneseny do blockchainu."
+msgid "This is the amount of Tad that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Tad that you have just spent but is not yet in the blockchain."
+msgstr "Tad zůstatek využitelný pro transakce. Neobsahuje nezpracované odměny za farmaření, nezpracované příchozí transakce a ani převody, které ještě nebyly zaneseny do blockchainu."
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2135,8 +2134,8 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Čas vytvoření bloku farmářem ještě před jeho dokončením důkazem času (proof of time)"
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Celkový počet Chia v blockchainu při aktuální sub bloku kontrolovaný vaším privátním klíčem. Zahrnuje zmrazené odměny z farmaření ale nezahrnuje čekající příchozí ani odchozí transakce."
+msgid "This is the total amount of tad in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "Celkový počet Tad v blockchainu při aktuální sub bloku kontrolovaný vaším privátním klíčem. Zahrnuje zmrazené odměny z farmaření ale nezahrnuje čekající příchozí ani odchozí transakce."
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2181,8 +2180,8 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Tento obchod byl zahrnut do blockchainu v této výšce bloku"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Tato verze Chia již není kompatibilní s blockchainem a nemůže bezpečně farmit."
+msgid "This version of Tad is no longer compatible with the blockchain and can not safely farm."
+msgstr "Tato verze Tad již není kompatibilní s blockchainem a nemůže bezpečně farmit."
 
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
@@ -2206,10 +2205,6 @@ msgstr "Komu"
 msgid "Total Balance"
 msgstr "Celkový zůstatek"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
-#~ msgstr ""
-
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
 msgid "Total Iterations"
 msgstr "Celkové iterace"
@@ -2225,6 +2220,10 @@ msgstr "Celková velikost pole:"
 #: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:12
 msgid "Total Size of Plots"
 msgstr "Celková velikost polí"
+
+#: src/components/farm/card/FarmCardTotalTadFarmed.tsx:15
+#~ msgid "Total Tad Farmed"
+#~ msgstr ""
 
 #: src/components/block/Block.jsx:225
 msgid "Total VDF Iterations"
@@ -2378,16 +2377,16 @@ msgstr "Stav peněženky:"
 #~ msgid "WalletItem.ccWallet"
 #~ msgstr ""
 
-#: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
-#~ msgstr ""
-
 #: src/components/wallet/Wallets.tsx:48
 #~ msgid "WalletItem.didWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:41
 #~ msgid "WalletItem.rlWallet"
+#~ msgstr ""
+
+#: src/components/wallet/Wallets.tsx:30
+#~ msgid "WalletItem.tadWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:107
@@ -2416,8 +2415,12 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr "Chceš se připojit k poolu? Vytvoř NFT pole"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Chcete získat více Chia? Přidejte další pole do vaší farmy."
+msgid "Want to earn more Tad Coins? Add more plots to your farm."
+msgstr ""
+
+#: src/components/plot/overview/PlotOverviewPlots.tsx:139
+#~ msgid "Want to earn more Tad? Add more plots to your farm."
+#~ msgstr "Chcete získat více Tad? Přidejte další pole do vaší farmy."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
@@ -2444,8 +2447,8 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Váha je celková přidaná obtížnost všech dílčích bloků až po tento blok včetně"
 
 #: src/components/selectKey/SelectKey.tsx:141
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Vítejte v Chia. Přihlaste se pomocí existujícího klíče, nebo si vytvořte nový klíč."
+msgid "Welcome to Tad. Please log in with an existing key, or create a new key."
+msgstr "Vítejte v Tad. Přihlaste se pomocí existujícího klíče, nebo si vytvořte nový klíč."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2515,8 +2518,8 @@ msgid "You need to claim your rewards first"
 msgstr "Nejprve musíte zažádat o své odměny"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Tad application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Tad application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 msgid "You need {currencyCode} to join a pool."
@@ -2603,8 +2606,8 @@ msgstr "{0} bodů {1} - před {2} hodinami"
 msgid "{currencyCode} Block Rewards"
 msgstr "Blokové odměny {currencyCode}"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalTadFarmed.tsx:29
+msgid "{currencyCode} Total Tad Farmed"
 msgstr "Celkem nafarmařeno {currencyCode}"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
@@ -2612,5 +2615,5 @@ msgid "{currencyCode} User Transaction Fees"
 msgstr "Poplatky za transakce {currencyCode}"
 
 #: src/components/core/components/Amount/Amount.tsx:80
-msgid "{mojo, plural, one {mojo} other {mojos}}"
+msgid "{mtad, plural, one {mtad} other {mtads}}"
 msgstr ""

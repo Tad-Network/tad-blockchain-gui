@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
-import icon from '../../assets/img/chia_circle.svg';
+import icon from '../../assets/img/tad_circle.svg';
 
 const GlobalStyle = createGlobalStyle`
   body,
@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: silver;
   }
 
-  body { 
+  body {
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -70,7 +70,7 @@ const Spacer = styled.div`
   margin-bottom: 1rem;
 `;
 
-const url = 'https://chia.net';
+const url = 'https://tadcoin.xyz';
 
 type Props = {
   version: string;
@@ -114,7 +114,7 @@ export default function About(props: Props) {
         </StyledLink>
         <StyledSubTitle>{description}</StyledSubTitle>
         <Spacer />
-        <div className="copyright">Copyright (c) 2021 Chia Network</div>
+        <div className="copyright">Copyright (c) 2021 Tad Network</div>
         <Spacer />
         <VersionsTable>
           {versions?.electron && (
@@ -144,7 +144,7 @@ export default function About(props: Props) {
         </VersionsTable>
 
         <BugReport
-          href="https://github.com/Chia-Network/chia-blockchain/issues"
+          href="https://github.com/Tad-Network/tad-blockchain/issues"
           target="_blank"
         >
           Report an issue

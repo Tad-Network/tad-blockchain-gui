@@ -23,8 +23,12 @@ msgid "(Optional)"
 msgstr "(اختياري)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*هل ترغب في زيادة استكشاف Chia؟ تحقق من <0> Chia Explorer</0> التي بناها مطور مفتوح المصدر."
+#~ msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
+#~ msgstr "*هل ترغب في زيادة استكشاف Chia؟ تحقق من <0> Chia Explorer</0> التي بناها مطور مفتوح المصدر."
+
+#: src/components/farm/FarmLatestBlockChallenges.tsx:64
+msgid "*Want to explore Tad’s blocks further? Check out <0>Tad Explorer</0> built by an open source developer."
+msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -44,8 +48,13 @@ msgstr "الحصاد هو خدمة تعمل على الحاسوب حيث يتم 
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Blockchain"
-msgstr "معلومات عن Chia Blockchain"
+#~ msgid "About Chia Blockchain"
+#~ msgstr "معلومات عن Chia Blockchain"
+
+#: src/electron/main.tsx:422
+#: src/electron/main.tsx:509
+msgid "About Tad Blockchain"
+msgstr ""
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -216,8 +225,12 @@ msgid "Block VDF Iterations"
 msgstr "عدد دورات VDF في المربع"
 
 #: src/components/block/Block.jsx:336
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "المربع عند الارتفاع {0} في سلسلة مربعات شيا"
+#~ msgid "Block at height {0} in the Chia blockchain"
+#~ msgstr "المربع عند الارتفاع {0} في سلسلة مربعات شيا"
+
+#: src/components/block/Block.jsx:336
+msgid "Block at height {0} in the Tad blockchain"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -305,20 +318,24 @@ msgid "Change Pool"
 msgstr "تغيير المجمع"
 
 #: src/electron/main.tsx:401
-msgid "Chat on KeyBase"
-msgstr "الدردشة على KeyBase"
+msgid "Chat on Discord"
+msgstr ""
+
+#: src/electron/main.tsx:401
+#~ msgid "Chat on KeyBase"
+#~ msgstr "الدردشة على KeyBase"
 
 #: src/electron/main.tsx:419
-msgid "Chia"
-msgstr "Chia"
+#~ msgid "Chia"
+#~ msgstr "Chia"
 
 #: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
-msgstr "Chia Blockchain Wiki"
+#~ msgid "Chia Blockchain Wiki"
+#~ msgstr "Chia Blockchain Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:647
-msgid "Chia Wallet"
-msgstr "محفظة Chia"
+#~ msgid "Chia Wallet"
+#~ msgstr "محفظة Chia"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -690,8 +707,12 @@ msgid "Edit"
 msgstr "تعديل"
 
 #: src/components/wallet/WalletImport.tsx:147
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "أدخل الـ 24 كلمة التي قمت بحفظها من أجل استعادة محفظة Chia الخاصة بك."
+#~ msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+#~ msgstr "أدخل الـ 24 كلمة التي قمت بحفظها من أجل استعادة محفظة Chia الخاصة بك."
+
+#: src/components/wallet/WalletImport.tsx:147
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Tad wallet."
+msgstr ""
 
 #: src/components/farm/FarmerStatus.tsx:21
 #: src/components/farm/FarmerStatus.tsx:22
@@ -704,8 +725,12 @@ msgid "Error"
 msgstr "خطأ"
 
 #: src/components/wallet/standard/WalletStandard.tsx:456
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "خطأ: لا يمكن إرسال chia إلى عنوان العملات الملونة. الرجاء إدخال عنوان chia."
+#~ msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
+#~ msgstr "خطأ: لا يمكن إرسال chia إلى عنوان العملات الملونة. الرجاء إدخال عنوان chia."
+
+#: src/components/wallet/standard/WalletStandard.tsx:456
+msgid "Error: Cannot send tad to coloured address. Please enter a tad address."
+msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -1034,7 +1059,7 @@ msgstr ""
 msgid "K-Size"
 msgstr "K-Size"
 
-#: src/components/dashboard/DashboardSideBar.tsx:66
+#: src/components/dashboard/DashboardSideBar.tsx:67
 msgid "Keys"
 msgstr "مفاتيح"
 
@@ -1484,8 +1509,12 @@ msgid "Plots Passed Filter"
 msgstr "اجتاز تصفية المؤامرات"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "يتم تخصيص مساحة قطع الأراضي على محرك الأقراص الثابتة الخاص بك لاستخدامها في الزراعة وكسب Chia. <0> معرفة المزيد </0>"
+#~ msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+#~ msgstr "يتم تخصيص مساحة قطع الأراضي على محرك الأقراص الثابتة الخاص بك لاستخدامها في الزراعة وكسب Chia. <0> معرفة المزيد </0>"
+
+#: src/components/plot/overview/PlotOverviewHero.tsx:35
+msgid "Plots are allocated space on your hard drive used to farm and earn Tad. <0>Learn more</0>"
+msgstr ""
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 msgid "Plotting"
@@ -1518,7 +1547,6 @@ msgstr ""
 msgid "Points Successful in Last 24 Hours"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:60
 #: src/components/pool/Pool.tsx:25
 msgid "Pool"
 msgstr ""
@@ -1922,8 +1950,13 @@ msgstr "طول الفاصل الزمني للإنفاق (عدد الكتل)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "حد الإنفاق (chia لكل فاصلة): {0}"
+#~ msgid "Spending Limit (chia per interval): {0}"
+#~ msgstr "حد الإنفاق (chia لكل فاصلة): {0}"
+
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
+msgid "Spending Limit (tad per interval): {0}"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
@@ -2017,6 +2050,18 @@ msgstr "مزامنة <0/><1/>"
 #: src/components/farm/card/FarmCardUserFees.tsx:15
 #~ msgid "TXCH User Transaction Fees"
 #~ msgstr ""
+
+#: src/electron/main.tsx:419
+msgid "Tad"
+msgstr ""
+
+#: src/electron/main.tsx:358
+msgid "Tad Blockchain Wiki"
+msgstr ""
+
+#: src/components/wallet/standard/WalletStandard.tsx:647
+msgid "Tad Wallet"
+msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:37
 msgid "Target Puzzle Hash"
@@ -2115,8 +2160,12 @@ msgid "This feature is available only from the GUI."
 msgstr "هذه الميزة متاحة فقط من واجهة المستخدم الحاسوبية."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "هذه هي كمية تشيا التي يمكنك استخدامها حاليا لإجراء المعاملات. لا تشمل مكافآت الزراعة المعلقة، والمعاملات الواردة بانتظار، وشيا التي أنفقتها للتو ولكنها ليست بعد في سلسلة الكتل."
+#~ msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+#~ msgstr "هذه هي كمية تشيا التي يمكنك استخدامها حاليا لإجراء المعاملات. لا تشمل مكافآت الزراعة المعلقة، والمعاملات الواردة بانتظار، وشيا التي أنفقتها للتو ولكنها ليست بعد في سلسلة الكتل."
+
+#: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
+msgid "This is the amount of Tad that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Tad that you have just spent but is not yet in the blockchain."
+msgstr ""
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2135,8 +2184,12 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "هذا هو الوقت الذي قام فيه المزارع بإنشاء الكتلة، وهو الوقت الذي يسبق وضعها في صيغتها النهائية بإثبات الوقت"
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "هذا هو إجمالي كمية الشيا في سلسلة الكتل في كتلة الذروة الفرعية الحالية التي تتحكم بها المفاتيح الخاصة. وتشمل مكافآت الزراعة المجمدة، ولكنها لا تنتظر المعاملات الواردة والصادرة."
+#~ msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+#~ msgstr "هذا هو إجمالي كمية الشيا في سلسلة الكتل في كتلة الذروة الفرعية الحالية التي تتحكم بها المفاتيح الخاصة. وتشمل مكافآت الزراعة المجمدة، ولكنها لا تنتظر المعاملات الواردة والصادرة."
+
+#: src/components/wallet/card/WalletCardTotalBalance.tsx:34
+msgid "This is the total amount of tad in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr ""
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2181,8 +2234,12 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "تم تضمين هذه التجارة على البلوكشين في ارتفاع البلوك هذا"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "هذه النسخة من تشيا لم تعد متوافقة مع سلسلة الكتل ولا يمكن زراعتها بأمان."
+#~ msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+#~ msgstr "هذه النسخة من تشيا لم تعد متوافقة مع سلسلة الكتل ولا يمكن زراعتها بأمان."
+
+#: src/components/app/AppTimeBombAlert.tsx:19
+msgid "This version of Tad is no longer compatible with the blockchain and can not safely farm."
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
@@ -2416,8 +2473,16 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "هل تريد كسب المزيد من شيا؟ أضف المزيد من قطع الأرض إلى مزرعتك."
+#~ msgid "Want to earn more Chia? Add more plots to your farm."
+#~ msgstr "هل تريد كسب المزيد من شيا؟ أضف المزيد من قطع الأرض إلى مزرعتك."
+
+#: src/components/plot/overview/PlotOverviewPlots.tsx:139
+msgid "Want to earn more Tad Coins? Add more plots to your farm."
+msgstr ""
+
+#: src/components/plot/overview/PlotOverviewPlots.tsx:139
+#~ msgid "Want to earn more Tad? Add more plots to your farm."
+#~ msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
@@ -2444,8 +2509,12 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "الوزن هو الصعوبة المضافة الكلية لجميع الكتل الفرعية حتى و بما في ذلك هذه"
 
 #: src/components/selectKey/SelectKey.tsx:141
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "مرحبا بكم في تشيا. الرجاء تسجيل الدخول باستخدام مفتاح موجود, أو إنشاء مفتاح جديد."
+#~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+#~ msgstr "مرحبا بكم في تشيا. الرجاء تسجيل الدخول باستخدام مفتاح موجود, أو إنشاء مفتاح جديد."
+
+#: src/components/selectKey/SelectKey.tsx:141
+msgid "Welcome to Tad. Please log in with an existing key, or create a new key."
+msgstr ""
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2604,13 +2673,21 @@ msgid "{currencyCode} Block Rewards"
 msgstr "جوائز حظر {currencyCode}"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} مجموع مزارع شيا"
+#~ msgid "{currencyCode} Total Chia Farmed"
+#~ msgstr "{currencyCode} مجموع مزارع شيا"
+
+#: src/components/farm/card/FarmCardTotalTadFarmed.tsx:29
+msgid "{currencyCode} Total Tad Farmed"
+msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} رسوم المعاملات للمستخدم"
 
 #: src/components/core/components/Amount/Amount.tsx:80
-msgid "{mojo, plural, one {mojo} other {mojos}}"
+#~ msgid "{mojo, plural, one {mojo} other {mojos}}"
+#~ msgstr ""
+
+#: src/components/core/components/Amount/Amount.tsx:80
+msgid "{mtad, plural, one {mtad} other {mtads}}"
 msgstr ""

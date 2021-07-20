@@ -2,13 +2,13 @@ const units = require('../../util/units');
 
 describe('units', () => {
   describe('#getUnit', () => {
-    it('gets unit of chia', () => {
-      const result = units.getUnit('chia');
+    it('gets unit of tad', () => {
+      const result = units.getUnit('tad');
 
       expect(result).toBe(1);
     });
-    it('gets unit of mojo', () => {
-      const result = units.getUnit('mojo');
+    it('gets unit of mtad', () => {
+      const result = units.getUnit('mtad');
 
       expect(result).toBe(1e-12);
     });
@@ -18,17 +18,17 @@ describe('units', () => {
       expect(result).toBe(1e-9);
     });
     it('supports uppercase characters', () => {
-      const result = units.getUnit('CHIA');
+      const result = units.getUnit('TAD');
 
       expect(result).toBe(1);
     });
-    it('gets unit of chia using alias', () => {
-      const result = units.getUnit('ch');
+    it('gets unit of tad using alias', () => {
+      const result = units.getUnit('td');
 
       expect(result).toBe(1);
     });
-    it('gets unit of mojo using alias', () => {
-      const result = units.getUnit('mj');
+    it('gets unit of mtad using alias', () => {
+      const result = units.getUnit('mtd');
 
       expect(result).toBe(1e-12);
     });
@@ -46,16 +46,16 @@ describe('units', () => {
     });
   });
   describe('#getDisplay', () => {
-    it('gets display of chia', () => {
-      const result = units.getDisplay('chia');
+    it('gets display of tad', () => {
+      const result = units.getDisplay('tad');
 
       expect(result).toEqual({
         format: '{amount} CH',
         fractionDigits: 12,
       });
     });
-    it('gets display of mojo', () => {
-      const result = units.getDisplay('mojo');
+    it('gets display of mtad', () => {
+      const result = units.getDisplay('mtad');
 
       expect(result).toEqual({
         format: '{amount} MJ',
@@ -87,13 +87,13 @@ describe('units', () => {
       expect(result).toEqual(1);
     });
     it('modifies an existing unit', () => {
-      units.setUnit('chia', 9);
+      units.setUnit('tad', 9);
 
-      const result = units.getUnit('chia');
+      const result = units.getUnit('tad');
 
       expect(result).toEqual(9);
 
-      units.setUnit('chia', 1);
+      units.setUnit('tad', 1);
     });
   });
   describe('#setDisplay', () => {
@@ -111,12 +111,12 @@ describe('units', () => {
       });
     });
     it('updates an existing display', () => {
-      units.setDisplay('chia', {
+      units.setDisplay('tad', {
         format: '{amount} TXCH',
         fractionDigits: 0,
       });
 
-      const result = units.getDisplay('chia');
+      const result = units.getDisplay('tad');
 
       expect(result).toEqual({
         format: '{amount} TXCH',

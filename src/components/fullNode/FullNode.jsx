@@ -9,8 +9,8 @@ import {
   Loading,
   StateColor,
   Table,
-} from '@chia/core';
-import { Status } from '@chia/icons';
+} from '@tad/core';
+import { Status } from '@tad/icons';
 import { useRouteMatch, useHistory } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { Box, Tooltip, Typography } from '@material-ui/core';

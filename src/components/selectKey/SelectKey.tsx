@@ -2,7 +2,7 @@ import React from 'react';
 import { Trans } from '@lingui/macro';
 import { useSelector, useDispatch } from 'react-redux';
 import styled from 'styled-components';
-import { Button, ConfirmDialog, Flex, Logo } from '@chia/core';
+import { Button, ConfirmDialog, Flex, Logo } from '@tad/core';
 import { Alert } from '@material-ui/lab';
 import {
   Card,
@@ -70,21 +70,21 @@ export default function SelectKey() {
       >
         {response.used_for_farmer_rewards && (<Alert severity="warning">
           <Trans>
-            Warning: This key is used for your farming rewards address. 
+            Warning: This key is used for your farming rewards address.
             By deleting this key you may lose access to any future farming rewards
             </Trans>
         </Alert>)}
 
         {response.used_for_pool_rewards && (<Alert severity="warning">
           <Trans>
-            Warning: This key is used for your pool rewards address. 
+            Warning: This key is used for your pool rewards address.
             By deleting this key you may lose access to any future pool rewards
           </Trans>
         </Alert>)}
 
         {response.wallet_balance && (<Alert severity="warning">
           <Trans>
-            Warning: This key is used for a wallet that may have a non-zero balance. 
+            Warning: This key is used for a wallet that may have a non-zero balance.
             By deleting this key you may lose access to this wallet
           </Trans>
         </Alert>)}
@@ -139,7 +139,7 @@ export default function SelectKey() {
               </Typography>
               <Typography variant="subtitle1">
                 <Trans>
-                  Welcome to Chia. Please log in with an existing key, or create
+                  Welcome to Tad. Please log in with an existing key, or create
                   a new key.
                 </Trans>
               </Typography>

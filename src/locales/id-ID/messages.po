@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: id_ID\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: tad-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-07-13 00:14\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: tad-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: id\n"
-"X-Crowdin-File: /[Chia-Network.chia-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Tad-Network.tad-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -23,8 +23,8 @@ msgid "(Optional)"
 msgstr "(Pilihan)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*Ingin tahu soal blok Chia lebih jauh? Periksa laman <0>Chia Explorer</0> yang dibuat oleh software sumber terbuka."
+msgid "*Want to explore Tad’s blocks further? Check out <0>Tad Explorer</0> built by an open source developer."
+msgstr "*Ingin tahu soal blok Tad lebih jauh? Periksa laman <0>Tad Explorer</0> yang dibuat oleh software sumber terbuka."
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -44,8 +44,8 @@ msgstr "Harvester adalah layanan yang berjalan pada komputer dimana plot disimpa
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Blockchain"
-msgstr "Tentang Chia Blockchain"
+msgid "About Tad Blockchain"
+msgstr "Tentang Tad Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -216,8 +216,8 @@ msgid "Block VDF Iterations"
 msgstr "Perulangan blok VDF"
 
 #: src/components/block/Block.jsx:336
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Blok pada puncak {0} dalam rantai blok Chia"
+msgid "Block at height {0} in the Tad blockchain"
+msgstr "Blok pada puncak {0} dalam rantai blok Tad"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -305,20 +305,8 @@ msgid "Change Pool"
 msgstr "Ubah Pool"
 
 #: src/electron/main.tsx:401
-msgid "Chat on KeyBase"
-msgstr "Hubung Chat di KeyBase"
-
-#: src/electron/main.tsx:419
-msgid "Chia"
-msgstr "Chia"
-
-#: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
-msgstr "Wiki Chia Blockchain"
-
-#: src/components/wallet/standard/WalletStandard.tsx:647
-msgid "Chia Wallet"
-msgstr "Wallet Chia"
+msgid "Chat on Discord"
+msgstr "Hubung Chat di Discord"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -690,8 +678,8 @@ msgid "Edit"
 msgstr "Ubah"
 
 #: src/components/wallet/WalletImport.tsx:147
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Masukkan 24 kata mnemonik yang telah anda simpan untuk mengembalikan dompet Chia anda."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Tad wallet."
+msgstr "Masukkan 24 kata mnemonik yang telah anda simpan untuk mengembalikan dompet Tad anda."
 
 #: src/components/farm/FarmerStatus.tsx:21
 #: src/components/farm/FarmerStatus.tsx:22
@@ -704,8 +692,8 @@ msgid "Error"
 msgstr "Error"
 
 #: src/components/wallet/standard/WalletStandard.tsx:456
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Error: Tidak dapat mengirim Chia ke alamat berwarna. Mohon masukkan sebuah alamat Chia."
+msgid "Error: Cannot send tad to coloured address. Please enter a tad address."
+msgstr "Error: Tidak dapat mengirim Tad ke alamat berwarna. Mohon masukkan sebuah alamat Tad."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -1034,7 +1022,7 @@ msgstr ""
 msgid "K-Size"
 msgstr "Ukuran-K"
 
-#: src/components/dashboard/DashboardSideBar.tsx:66
+#: src/components/dashboard/DashboardSideBar.tsx:67
 msgid "Keys"
 msgstr "Keys"
 
@@ -1484,9 +1472,9 @@ msgid "Plots Passed Filter"
 msgstr "Plot Diterima Seleksi"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Tad. <0>Learn more</0>"
 msgstr ""
-"Plot adalah penempatan ruang dalam hard drive yang digunakan untuk disewakan dan memperoleh Chia\n"
+"Plot adalah penempatan ruang dalam hard drive yang digunakan untuk disewakan dan memperoleh Tad\n"
 "<0>Pelajari lebih lanjut</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
@@ -1520,7 +1508,6 @@ msgstr ""
 msgid "Points Successful in Last 24 Hours"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:60
 #: src/components/pool/Pool.tsx:25
 msgid "Pool"
 msgstr ""
@@ -1924,8 +1911,8 @@ msgstr "Durasi Interval Pengeluaran (jumlah blok)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Batas Pengeluaran (chia per jarak waktu): {0}"
+msgid "Spending Limit (tad per interval): {0}"
+msgstr "Batas Pengeluaran (tad per jarak waktu): {0}"
 
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
@@ -1973,8 +1960,8 @@ msgstr "Status:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Tad blockchain"
+#~ msgstr "Sub Block at height {0} in the Tad blockchain"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
 msgid "Submit"
@@ -2019,6 +2006,18 @@ msgstr "Sinkronisasi <0/>/<1/>"
 #: src/components/farm/card/FarmCardUserFees.tsx:15
 #~ msgid "TXCH User Transaction Fees"
 #~ msgstr ""
+
+#: src/electron/main.tsx:419
+msgid "Tad"
+msgstr "Tad"
+
+#: src/electron/main.tsx:358
+msgid "Tad Blockchain Wiki"
+msgstr "Wiki Tad Blockchain"
+
+#: src/components/wallet/standard/WalletStandard.tsx:647
+msgid "Tad Wallet"
+msgstr "Wallet Tad"
 
 #: src/components/pool/PoolInfo.tsx:37
 msgid "Target Puzzle Hash"
@@ -2117,8 +2116,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Fitur ini hanya tersedia di GUI."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Ini adalah jumlah Chia yang ada yang bisa anda gunakan untuk transaksi. Ini tidak berikut penghasilan farming yang masih tertahan, transaksi masuk yang masih tertahan, dan Chia yang sudah anda pakai tapi belum terdaftar di blockchain."
+msgid "This is the amount of Tad that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Tad that you have just spent but is not yet in the blockchain."
+msgstr "Ini adalah jumlah Tad yang ada yang bisa anda gunakan untuk transaksi. Ini tidak berikut penghasilan farming yang masih tertahan, transaksi masuk yang masih tertahan, dan Tad yang sudah anda pakai tapi belum terdaftar di blockchain."
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2137,8 +2136,8 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Ini adalah waktu dimana blok di hasilkan oleh farmer, sebelum di finalisasi dengan bukti dari waktu"
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Ini adalah jumlah total Chia di dalam blockchain di pucak terbaru sub blok yang di kontrol oleh kunci privat anda. Termasuk hadiah farming yang masi beku, tapi tidak termasuk transaksi masuk atau keluar yang masih tertahan."
+msgid "This is the total amount of tad in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "Ini adalah jumlah total Tad di dalam blockchain di pucak terbaru sub blok yang di kontrol oleh kunci privat anda. Termasuk hadiah farming yang masi beku, tapi tidak termasuk transaksi masuk atau keluar yang masih tertahan."
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2183,8 +2182,8 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Perdagangan ini sudah termasuk di blockchain pada ketinggian block ini"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Versi Chia anda tidak serasi kepada blockchain dan tidak boleh ditransaksi."
+msgid "This version of Tad is no longer compatible with the blockchain and can not safely farm."
+msgstr "Versi Tad anda tidak serasi kepada blockchain dan tidak boleh ditransaksi."
 
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
@@ -2208,10 +2207,6 @@ msgstr "Ke"
 msgid "Total Balance"
 msgstr "Jumlah Saldo"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
-#~ msgstr ""
-
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
 msgid "Total Iterations"
 msgstr "Jumlah iterasi"
@@ -2227,6 +2222,10 @@ msgstr "Jumlah Ukuran Plot:"
 #: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:12
 msgid "Total Size of Plots"
 msgstr "Jumlah Ukuran Plot-Plot"
+
+#: src/components/farm/card/FarmCardTotalTadFarmed.tsx:15
+#~ msgid "Total Tad Farmed"
+#~ msgstr ""
 
 #: src/components/block/Block.jsx:225
 msgid "Total VDF Iterations"
@@ -2380,16 +2379,16 @@ msgstr "Status Dompet:"
 #~ msgid "WalletItem.ccWallet"
 #~ msgstr ""
 
-#: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
-#~ msgstr ""
-
 #: src/components/wallet/Wallets.tsx:48
 #~ msgid "WalletItem.didWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:41
 #~ msgid "WalletItem.rlWallet"
+#~ msgstr ""
+
+#: src/components/wallet/Wallets.tsx:30
+#~ msgid "WalletItem.tadWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:107
@@ -2418,8 +2417,12 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr "Mau bergabung ke Pool? Buat sebuah Plot NFT"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Ingin mendapatkan lebih banyak Chia? Tambahkan lebih banyak plot ke farm anda."
+msgid "Want to earn more Tad Coins? Add more plots to your farm."
+msgstr ""
+
+#: src/components/plot/overview/PlotOverviewPlots.tsx:139
+#~ msgid "Want to earn more Tad? Add more plots to your farm."
+#~ msgstr "Ingin mendapatkan lebih banyak Tad? Tambahkan lebih banyak plot ke farm anda."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
@@ -2446,8 +2449,8 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Beban adalah jumlah total ke rumitan semua sub blok sampai dengan blok ini"
 
 #: src/components/selectKey/SelectKey.tsx:141
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Selamat datang di Chia. Silahkan masuk dengan key eksisting atau dengan membuat key baru."
+msgid "Welcome to Tad. Please log in with an existing key, or create a new key."
+msgstr "Selamat datang di Tad. Silahkan masuk dengan key eksisting atau dengan membuat key baru."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2517,8 +2520,8 @@ msgid "You need to claim your rewards first"
 msgstr "Anda harus mengambil penghargaan terlebih dahulu"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Tad application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Tad application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 msgid "You need {currencyCode} to join a pool."
@@ -2605,14 +2608,14 @@ msgstr "{0} poin {1} - {2} jam yang lalu"
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Blok Ganjaran"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Total Chia yang di-Farm"
+#: src/components/farm/card/FarmCardTotalTadFarmed.tsx:29
+msgid "{currencyCode} Total Tad Farmed"
+msgstr "{currencyCode} Total Tad yang di-Farm"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} Biaya Transaksi User"
 
 #: src/components/core/components/Amount/Amount.tsx:80
-msgid "{mojo, plural, one {mojo} other {mojos}}"
-msgstr "{mojo, plural, other {mojo}}"
+msgid "{mtad, plural, one {mtad} other {mtads}}"
+msgstr "{mtad, plural, other {mtad}}"

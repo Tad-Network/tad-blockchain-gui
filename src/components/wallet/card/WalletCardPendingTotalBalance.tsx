@@ -3,7 +3,7 @@ import { Trans } from '@lingui/macro';
 import FarmCard from '../../farm/card/FarmCard';
 import useWallet from '../../../hooks/useWallet';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
-import { mojo_to_chia_string } from '../../../util/chia';
+import { mtad_to_tad_string } from '../../../util/tad';
 
 type Props = {
   wallet_id: number;
@@ -33,7 +33,7 @@ export default function WalletCardPendingTotalBalance(props: Props) {
       }
       value={
         <>
-          {mojo_to_chia_string(value)} {currencyCode}
+          {mtad_to_tad_string(value)} {currencyCode}
         </>
       }
     />

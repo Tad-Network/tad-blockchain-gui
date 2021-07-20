@@ -23,8 +23,12 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*Хочаце даведацца больш пра блокчэйн Chia? Паглядзіце <0>Chia Explorer</0>, створаны распрацоўшчыкам па прынцыпах адкрытага зыходнага кода."
+#~ msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
+#~ msgstr "*Хочаце даведацца больш пра блокчэйн Chia? Паглядзіце <0>Chia Explorer</0>, створаны распрацоўшчыкам па прынцыпах адкрытага зыходнага кода."
+
+#: src/components/farm/FarmLatestBlockChallenges.tsx:64
+msgid "*Want to explore Tad’s blocks further? Check out <0>Tad Explorer</0> built by an open source developer."
+msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -44,8 +48,13 @@ msgstr "Камбайн — сэрвіс, які выконваецца на к�
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Blockchain"
-msgstr "Аб праграме Chia Blockchain"
+#~ msgid "About Chia Blockchain"
+#~ msgstr "Аб праграме Chia Blockchain"
+
+#: src/electron/main.tsx:422
+#: src/electron/main.tsx:509
+msgid "About Tad Blockchain"
+msgstr ""
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -216,8 +225,12 @@ msgid "Block VDF Iterations"
 msgstr "Ітэрацый VDF блока"
 
 #: src/components/block/Block.jsx:336
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Блок на вышыні {0} у блокчэйне Chia"
+#~ msgid "Block at height {0} in the Chia blockchain"
+#~ msgstr "Блок на вышыні {0} у блокчэйне Chia"
+
+#: src/components/block/Block.jsx:336
+msgid "Block at height {0} in the Tad blockchain"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -305,20 +318,24 @@ msgid "Change Pool"
 msgstr ""
 
 #: src/electron/main.tsx:401
-msgid "Chat on KeyBase"
-msgstr "Чат у KeyBase"
+msgid "Chat on Discord"
+msgstr ""
+
+#: src/electron/main.tsx:401
+#~ msgid "Chat on KeyBase"
+#~ msgstr "Чат у KeyBase"
 
 #: src/electron/main.tsx:419
-msgid "Chia"
-msgstr "Chia"
+#~ msgid "Chia"
+#~ msgstr "Chia"
 
 #: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
-msgstr "Вікі блокчэйна Chia"
+#~ msgid "Chia Blockchain Wiki"
+#~ msgstr "Вікі блокчэйна Chia"
 
 #: src/components/wallet/standard/WalletStandard.tsx:647
-msgid "Chia Wallet"
-msgstr "Кашалёк Chia"
+#~ msgid "Chia Wallet"
+#~ msgstr "Кашалёк Chia"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -690,8 +707,12 @@ msgid "Edit"
 msgstr "Рэдагаваць"
 
 #: src/components/wallet/WalletImport.tsx:147
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Каб аднавіць свой кашалёк Chia, увядзіце раней захаваную вамі мнеманічную фразу з 24 слоў у правільным парадку."
+#~ msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+#~ msgstr "Каб аднавіць свой кашалёк Chia, увядзіце раней захаваную вамі мнеманічную фразу з 24 слоў у правільным парадку."
+
+#: src/components/wallet/WalletImport.tsx:147
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Tad wallet."
+msgstr ""
 
 #: src/components/farm/FarmerStatus.tsx:21
 #: src/components/farm/FarmerStatus.tsx:22
@@ -704,8 +725,12 @@ msgid "Error"
 msgstr "Памылка"
 
 #: src/components/wallet/standard/WalletStandard.tsx:456
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Памылка: немагчыма адправіць chia на адрас каляровай манеты. Укажыце адрас chia."
+#~ msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
+#~ msgstr "Памылка: немагчыма адправіць chia на адрас каляровай манеты. Укажыце адрас chia."
+
+#: src/components/wallet/standard/WalletStandard.tsx:456
+msgid "Error: Cannot send tad to coloured address. Please enter a tad address."
+msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -1034,7 +1059,7 @@ msgstr ""
 msgid "K-Size"
 msgstr "K-памер"
 
-#: src/components/dashboard/DashboardSideBar.tsx:66
+#: src/components/dashboard/DashboardSideBar.tsx:67
 msgid "Keys"
 msgstr "Ключы"
 
@@ -1484,8 +1509,12 @@ msgid "Plots Passed Filter"
 msgstr "Дзялянкі, якія прайшлі фільтр"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "Дзялянкі — гэта вылучаная прастора на вашым жорсткім дыску, якая выкарыстоўваецца для фермерства і прыносіць даход у Chia. <0>Даведацца больш</0>"
+#~ msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+#~ msgstr "Дзялянкі — гэта вылучаная прастора на вашым жорсткім дыску, якая выкарыстоўваецца для фермерства і прыносіць даход у Chia. <0>Даведацца больш</0>"
+
+#: src/components/plot/overview/PlotOverviewHero.tsx:35
+msgid "Plots are allocated space on your hard drive used to farm and earn Tad. <0>Learn more</0>"
+msgstr ""
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 msgid "Plotting"
@@ -1518,7 +1547,6 @@ msgstr ""
 msgid "Points Successful in Last 24 Hours"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:60
 #: src/components/pool/Pool.tsx:25
 msgid "Pool"
 msgstr ""
@@ -1922,8 +1950,13 @@ msgstr "Працягласць інтэрвалу расходаў (колька
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Ліміт расходаў (манет chia на інтэрвал): {0}"
+#~ msgid "Spending Limit (chia per interval): {0}"
+#~ msgstr "Ліміт расходаў (манет chia на інтэрвал): {0}"
+
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
+msgid "Spending Limit (tad per interval): {0}"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
@@ -2017,6 +2050,18 @@ msgstr "Ідзе сінхранізацыя <0/>/<1/>"
 #: src/components/farm/card/FarmCardUserFees.tsx:15
 #~ msgid "TXCH User Transaction Fees"
 #~ msgstr ""
+
+#: src/electron/main.tsx:419
+msgid "Tad"
+msgstr ""
+
+#: src/electron/main.tsx:358
+msgid "Tad Blockchain Wiki"
+msgstr ""
+
+#: src/components/wallet/standard/WalletStandard.tsx:647
+msgid "Tad Wallet"
+msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:37
 msgid "Target Puzzle Hash"
@@ -2115,8 +2160,12 @@ msgid "This feature is available only from the GUI."
 msgstr "Гэтая функцыя даступная толькі праз графічны інтэрфейс."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Сума манет Chia, якія вы зараз можаце выкарыстаць для выканання трансакцый. Не ўключае ў сябе чаканыя ўзнагароды за фермерства, чаканыя ўваходныя трансакцыі, а таксама вашы расходы, даныя пра якія яшчэ не былі занесены ў блокчэйн."
+#~ msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+#~ msgstr "Сума манет Chia, якія вы зараз можаце выкарыстаць для выканання трансакцый. Не ўключае ў сябе чаканыя ўзнагароды за фермерства, чаканыя ўваходныя трансакцыі, а таксама вашы расходы, даныя пра якія яшчэ не былі занесены ў блокчэйн."
+
+#: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
+msgid "This is the amount of Tad that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Tad that you have just spent but is not yet in the blockchain."
+msgstr ""
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2135,8 +2184,12 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Момант часу, калі блок быў створаны фермерам, г.зн. да таго, як ён быў завершаны праз пацвярджэнне часам (proof of time)."
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Агульная сума манет Chia у блокчэйне ў бягучым крайнім падблоку, падкантрольным вашаму закрытаму ключу. Уключае ў сябе замарожаныя ўзнагароды за фермерства, але не ўключае чаканыя ўваходныя і выходныя трансакцыі."
+#~ msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+#~ msgstr "Агульная сума манет Chia у блокчэйне ў бягучым крайнім падблоку, падкантрольным вашаму закрытаму ключу. Уключае ў сябе замарожаныя ўзнагароды за фермерства, але не ўключае чаканыя ўваходныя і выходныя трансакцыі."
+
+#: src/components/wallet/card/WalletCardTotalBalance.tsx:34
+msgid "This is the total amount of tad in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr ""
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2181,8 +2234,12 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Гэтая здзелка была занесена ў блокчэйн на ўказанай вышыні блока"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Гэтая версія Chia больш несумяшчальная з блокчэйнам і не можа бяспечна фермерстваваць."
+#~ msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+#~ msgstr "Гэтая версія Chia больш несумяшчальная з блокчэйнам і не можа бяспечна фермерстваваць."
+
+#: src/components/app/AppTimeBombAlert.tsx:19
+msgid "This version of Tad is no longer compatible with the blockchain and can not safely farm."
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
@@ -2416,8 +2473,16 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Хочацца атрымліваць большы даход у Chia? Дадайце больш дзялянак на сваю ферму."
+#~ msgid "Want to earn more Chia? Add more plots to your farm."
+#~ msgstr "Хочацца атрымліваць большы даход у Chia? Дадайце больш дзялянак на сваю ферму."
+
+#: src/components/plot/overview/PlotOverviewPlots.tsx:139
+msgid "Want to earn more Tad Coins? Add more plots to your farm."
+msgstr ""
+
+#: src/components/plot/overview/PlotOverviewPlots.tsx:139
+#~ msgid "Want to earn more Tad? Add more plots to your farm."
+#~ msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
@@ -2444,8 +2509,12 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Вага — гэта агульная дабаўленая складанасць усіх падблокаў, у тым ліку гэтага"
 
 #: src/components/selectKey/SelectKey.tsx:141
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Вітаем у Chia. Увайдзіце ў сістэму з дапамогай існуючага ключа або стварыце новы."
+#~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+#~ msgstr "Вітаем у Chia. Увайдзіце ў сістэму з дапамогай існуючага ключа або стварыце новы."
+
+#: src/components/selectKey/SelectKey.tsx:141
+msgid "Welcome to Tad. Please log in with an existing key, or create a new key."
+msgstr ""
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2604,13 +2673,21 @@ msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Узнагарода за блок"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Усяго Chia урадзілася"
+#~ msgid "{currencyCode} Total Chia Farmed"
+#~ msgstr "{currencyCode} Усяго Chia урадзілася"
+
+#: src/components/farm/card/FarmCardTotalTadFarmed.tsx:29
+msgid "{currencyCode} Total Tad Farmed"
+msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} Камісійныя за трансакцыі карыстальнікаў"
 
 #: src/components/core/components/Amount/Amount.tsx:80
-msgid "{mojo, plural, one {mojo} other {mojos}}"
+#~ msgid "{mojo, plural, one {mojo} other {mojos}}"
+#~ msgstr ""
+
+#: src/components/core/components/Amount/Amount.tsx:80
+msgid "{mtad, plural, one {mtad} other {mtads}}"
 msgstr ""

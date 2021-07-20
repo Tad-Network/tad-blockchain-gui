@@ -23,8 +23,12 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*チアのブロックをさらに調べたいですか？オープンソース開発者に提供していただいた <0>Chia Explorer</0> を是非ご覧ください。"
+#~ msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
+#~ msgstr "*チアのブロックをさらに調べたいですか？オープンソース開発者に提供していただいた <0>Chia Explorer</0> を是非ご覧ください。"
+
+#: src/components/farm/FarmLatestBlockChallenges.tsx:64
+msgid "*Want to explore Tad’s blocks further? Check out <0>Tad Explorer</0> built by an open source developer."
+msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -44,8 +48,13 @@ msgstr "収穫機は耕地が実際に保存されているデバイス上に走
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Blockchain"
-msgstr "チアブロックチェーンについて"
+#~ msgid "About Chia Blockchain"
+#~ msgstr "チアブロックチェーンについて"
+
+#: src/electron/main.tsx:422
+#: src/electron/main.tsx:509
+msgid "About Tad Blockchain"
+msgstr ""
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -216,8 +225,12 @@ msgid "Block VDF Iterations"
 msgstr "ブロック VDF 評価回数"
 
 #: src/components/block/Block.jsx:336
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "チアブロックチェーン内の高さ {0} のブロック"
+#~ msgid "Block at height {0} in the Chia blockchain"
+#~ msgstr "チアブロックチェーン内の高さ {0} のブロック"
+
+#: src/components/block/Block.jsx:336
+msgid "Block at height {0} in the Tad blockchain"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -305,20 +318,24 @@ msgid "Change Pool"
 msgstr ""
 
 #: src/electron/main.tsx:401
-msgid "Chat on KeyBase"
-msgstr "Keybase でチャット"
+msgid "Chat on Discord"
+msgstr ""
+
+#: src/electron/main.tsx:401
+#~ msgid "Chat on KeyBase"
+#~ msgstr "Keybase でチャット"
 
 #: src/electron/main.tsx:419
-msgid "Chia"
-msgstr "チア"
+#~ msgid "Chia"
+#~ msgstr "チア"
 
 #: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
-msgstr "チアブロックチェーンの Wiki"
+#~ msgid "Chia Blockchain Wiki"
+#~ msgstr "チアブロックチェーンの Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:647
-msgid "Chia Wallet"
-msgstr "チアウォレット"
+#~ msgid "Chia Wallet"
+#~ msgstr "チアウォレット"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -690,8 +707,12 @@ msgid "Edit"
 msgstr "編集"
 
 #: src/components/wallet/WalletImport.tsx:147
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "チアウォレットを復元するには、24語の合言葉を入力してください。"
+#~ msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+#~ msgstr "チアウォレットを復元するには、24語の合言葉を入力してください。"
+
+#: src/components/wallet/WalletImport.tsx:147
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Tad wallet."
+msgstr ""
 
 #: src/components/farm/FarmerStatus.tsx:21
 #: src/components/farm/FarmerStatus.tsx:22
@@ -704,8 +725,12 @@ msgid "Error"
 msgstr "エラー"
 
 #: src/components/wallet/standard/WalletStandard.tsx:456
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "エラー: チアは色付きのアドレスには送れません。チアのアドレスを入力してください。"
+#~ msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
+#~ msgstr "エラー: チアは色付きのアドレスには送れません。チアのアドレスを入力してください。"
+
+#: src/components/wallet/standard/WalletStandard.tsx:456
+msgid "Error: Cannot send tad to coloured address. Please enter a tad address."
+msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -1034,7 +1059,7 @@ msgstr ""
 msgid "K-Size"
 msgstr "K 値"
 
-#: src/components/dashboard/DashboardSideBar.tsx:66
+#: src/components/dashboard/DashboardSideBar.tsx:67
 msgid "Keys"
 msgstr "鍵"
 
@@ -1484,8 +1509,12 @@ msgid "Plots Passed Filter"
 msgstr "フィルターを通過した耕地数"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "耕地とは、チアを収穫し、得るためにハードドライブ上に確保する領域です。<0>詳しく</0>"
+#~ msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+#~ msgstr "耕地とは、チアを収穫し、得るためにハードドライブ上に確保する領域です。<0>詳しく</0>"
+
+#: src/components/plot/overview/PlotOverviewHero.tsx:35
+msgid "Plots are allocated space on your hard drive used to farm and earn Tad. <0>Learn more</0>"
+msgstr ""
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 msgid "Plotting"
@@ -1518,7 +1547,6 @@ msgstr ""
 msgid "Points Successful in Last 24 Hours"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:60
 #: src/components/pool/Pool.tsx:25
 msgid "Pool"
 msgstr ""
@@ -1922,8 +1950,13 @@ msgstr "支払いインターバル長 (ブロック数)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "支払い額上限 (チア毎インターバル): {0}"
+#~ msgid "Spending Limit (chia per interval): {0}"
+#~ msgstr "支払い額上限 (チア毎インターバル): {0}"
+
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
+msgid "Spending Limit (tad per interval): {0}"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
@@ -2017,6 +2050,18 @@ msgstr "同期中 <0/>/<1/>"
 #: src/components/farm/card/FarmCardUserFees.tsx:15
 #~ msgid "TXCH User Transaction Fees"
 #~ msgstr ""
+
+#: src/electron/main.tsx:419
+msgid "Tad"
+msgstr ""
+
+#: src/electron/main.tsx:358
+msgid "Tad Blockchain Wiki"
+msgstr ""
+
+#: src/components/wallet/standard/WalletStandard.tsx:647
+msgid "Tad Wallet"
+msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:37
 msgid "Target Puzzle Hash"
@@ -2115,8 +2160,12 @@ msgid "This feature is available only from the GUI."
 msgstr "この機能は GUI 限定です。"
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "取引に使用できるチアの額です。承認待ちの耕作報酬、承認待ちの入金取引、及びブロックチェーンにまだ含まれていない消費チアはいずれも含まれていません。"
+#~ msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+#~ msgstr "取引に使用できるチアの額です。承認待ちの耕作報酬、承認待ちの入金取引、及びブロックチェーンにまだ含まれていない消費チアはいずれも含まれていません。"
+
+#: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
+msgid "This is the amount of Tad that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Tad that you have just spent but is not yet in the blockchain."
+msgstr ""
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2135,8 +2184,12 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "これが農家がブロックを作成した日時です。時間証明によって完成する前の段階です。"
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "現在の先端サブブロックにおいて、あなたの秘密鍵が所有している全チアの額です。凍結中の耕作報酬は含まれますが、承認待ちの入出金取引は反映されていません。"
+#~ msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+#~ msgstr "現在の先端サブブロックにおいて、あなたの秘密鍵が所有している全チアの額です。凍結中の耕作報酬は含まれますが、承認待ちの入出金取引は反映されていません。"
+
+#: src/components/wallet/card/WalletCardTotalBalance.tsx:34
+msgid "This is the total amount of tad in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr ""
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2181,8 +2234,12 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "このトレードはこのブロック高でブロックチェーンに取り込まれました。"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "ご使用のバージョンのチアアプリはブロックチェーンと互換性が無く、安全に耕作できません。"
+#~ msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+#~ msgstr "ご使用のバージョンのチアアプリはブロックチェーンと互換性が無く、安全に耕作できません。"
+
+#: src/components/app/AppTimeBombAlert.tsx:19
+msgid "This version of Tad is no longer compatible with the blockchain and can not safely farm."
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
@@ -2416,8 +2473,16 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "畑に耕地を増やしましょう。さらにチアを得られますよ。"
+#~ msgid "Want to earn more Chia? Add more plots to your farm."
+#~ msgstr "畑に耕地を増やしましょう。さらにチアを得られますよ。"
+
+#: src/components/plot/overview/PlotOverviewPlots.tsx:139
+msgid "Want to earn more Tad Coins? Add more plots to your farm."
+msgstr ""
+
+#: src/components/plot/overview/PlotOverviewPlots.tsx:139
+#~ msgid "Want to earn more Tad? Add more plots to your farm."
+#~ msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
@@ -2444,8 +2509,12 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "ブロック重とはこのブロックを含めた全てのブロックの難易度の合計です。"
 
 #: src/components/selectKey/SelectKey.tsx:141
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "チアにようこそ。お持ちの鍵でログインするか、新しく鍵を作成してください。"
+#~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+#~ msgstr "チアにようこそ。お持ちの鍵でログインするか、新しく鍵を作成してください。"
+
+#: src/components/selectKey/SelectKey.tsx:141
+msgid "Welcome to Tad. Please log in with an existing key, or create a new key."
+msgstr ""
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2604,13 +2673,21 @@ msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} ブロック報酬"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} 全収穫チア"
+#~ msgid "{currencyCode} Total Chia Farmed"
+#~ msgstr "{currencyCode} 全収穫チア"
+
+#: src/components/farm/card/FarmCardTotalTadFarmed.tsx:29
+msgid "{currencyCode} Total Tad Farmed"
+msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} ユーザー取引手数料"
 
 #: src/components/core/components/Amount/Amount.tsx:80
-msgid "{mojo, plural, one {mojo} other {mojos}}"
+#~ msgid "{mojo, plural, one {mojo} other {mojos}}"
+#~ msgstr ""
+
+#: src/components/core/components/Amount/Amount.tsx:80
+msgid "{mtad, plural, one {mtad} other {mtads}}"
 msgstr ""
