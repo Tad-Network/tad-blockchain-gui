@@ -1,7 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Route, Switch, useRouteMatch } from 'react-router';
-import { AppBar, Toolbar, Drawer, Divider } from '@material-ui/core';
+import {
+  AppBar,
+  Toolbar,
+  Drawer,
+  Divider,
+  Typography,
+  Box,
+} from '@material-ui/core';
+import { Link } from '@tad/core';
 import {
   DarkModeToggle,
   LocaleToggle,
@@ -67,6 +75,17 @@ export default function Dashboard() {
         <Toolbar>
           <DashboardTitleTarget />
           <Flex flexGrow={1} />
+          <Box component={"div"}  sx={{ display: { xs: 'none', sm: 'block', md: 'block' } }}>
+            <Typography component="h1" variant="h6" noWrap >
+              <Link target="_blank" href="https://tadcoin.xyz/?utm_source=client"  >
+                You earn full 2 TAD on OG and NFT plots
+              </Link>
+              &nbsp; <font color={"gray"} style={{opacity: 0.2}}> | </font> &nbsp;
+            </Typography>
+
+
+          </Box>
+
           <LocaleToggle locales={locales} defaultLocale={defaultLocale} />
           <DarkModeToggle />
         </Toolbar>
