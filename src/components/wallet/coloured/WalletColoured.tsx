@@ -297,7 +297,7 @@ function BalanceCardSubSection(props: BalanceCardSubSectionProps) {
     </Grid>
   );
 }
-
+// comment
 function get_cc_unit(name: string): string {
   let cc_unit = name;
   if (cc_unit.length > 10) {
@@ -578,7 +578,7 @@ function SendCard(props: SendCardProps) {
               inputRef={(input) => {
                 amount_input = input;
               }}
-              label={<Trans>Amount ({cc_unit})</Trans>}
+              label='Amount ({cc_unit})'
             />
           </Box>
           <Box flexGrow={6}>

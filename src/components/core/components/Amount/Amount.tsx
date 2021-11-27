@@ -75,10 +75,14 @@ export default function Amount(props: AmountProps) {
         <FormHelperText>
           <Flex alignItems="center" gap={2}>
             <Flex flexGrow={1} gap={1}>
-              <FormatLargeNumber value={mtad} />
-              <Box>
-                <Plural value={mtad} one="mtad" other="mtads" />
-              </Box>
+              {!!mtad && (
+                <>
+                  <FormatLargeNumber value={mtad} />
+                  <Box>
+                    <Plural value={mtad} one="mtad" other="mtads" />
+                  </Box>
+                </>
+              )}
             </Flex>
             {children &&
               children({
