@@ -142,18 +142,18 @@ msgstr "Адреса / Хеш слагалица"
 msgid "After your keys are successfully migrated to the new keyring, you may choose to have your keys removed from the old keyring."
 msgstr ""
 
+#: src/components/core/components/Amount/Amount.tsx:100
 #: src/components/trading/CreateOffer.jsx:196
 #: src/components/trading/TradesTable.tsx:20
 #: src/components/wallet/WalletHistory.tsx:62
 #: src/components/wallet/create/createNewColouredCoin.jsx:119
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:720
-#: src/components/wallet/standard/WalletStandard.tsx:506
 msgid "Amount"
 msgstr "Количина"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:581
-msgid "Amount ({cc_unit})"
-msgstr "Количина ({cc_unit})"
+#~ msgid "Amount ({cc_unit})"
+#~ msgstr "Количина ({cc_unit})"
 
 #: src/components/wallet/create/createRLAdmin.jsx:239
 msgid "Amount For Initial Coin"
@@ -3065,6 +3065,6 @@ msgstr "{currencyCode} накнаде за трансакције корисни
 #~ msgid "{mojo, plural, one {mojo} other {mojos}}"
 #~ msgstr ""
 
-#: src/components/core/components/Amount/Amount.tsx:80
-#~ msgid "{mtad, plural, one {mtad} other {mtads}}"
-#~ msgstr ""
+#: src/components/core/components/Amount/Amount.tsx:82
+msgid "{mtad, plural, one {mtad} other {mtads}}"
+msgstr ""
